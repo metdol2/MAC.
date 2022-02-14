@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{list-style: none;}
+
+a{text-decoration: none; color: inherit;}
+img{vertical-align: top;}
+button,input{border: 0; background-color: transparent;}
+
+header{
+    
+}
+header .wrap{
+    position: relative;
+    width: 1300px;
+    height: 96px;
+    margin: 0 auto;
+}
+header .wrap h1{
+    text-align: center;
+}
+header .wrap h1 img{
+    width: 200px;
+    height: 96px;
+}
+
+header .wrap .my{
+    position: absolute;
+    top: 25px;
+    right: 40px;
+}
+header .wrap .my img{
+    width: 30px;
+    height: 30px;
+}
+header .wrap .cart{
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+header .wrap .cart img{
+    width: 30px;
+    height: 30px;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1300px;
+    height: 65px;
+    border-bottom: 1px solid #000;
+}
+.main-menu li{
+    width: 130px;
+    font-weight: bold;
+}
+.main-menu li a{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.main-menu li:hover{
+    background-color: #666;
+    color: #fff;
+}
+
+.banner{
+    width: 1090px;
+    height: 573px;
+    margin: 0 auto;
+}
+.banner a{}
+.banner a img{
+    width: 1090px;
+    height: 573px;
+}
+
+.con{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 1090px;
+}
+.con h3{
+    padding-top: 10px;
+    border-top: 1px solid #000;
+}
+.con img{
+    width: 331px;
+    height: 413px;
+    padding-top: 10px;
+}
+
+.con .list{
+    display: flex;
+}
+.con .list .box{
+    margin-left: 40px;
+    text-align: center;
+}
+.con .list .box p{
+    font-weight: bold;
+    padding-top: 20px;
+}
+.con .list .box img{
+    width: 320px;
+    height: 287px;
+}
+
+.con .list .arrow button{
+    position: absolute;
+    top: 50%;
+    
+}
+.con .list .arrow button img{
+    width: 30px;
+    height: 30px;
+}
+
+.con2{
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 1090px;
+}
+.con2 h3{
+    padding-top: 10px;
+    border-top: 1px solid #000;
+}
+.con2 .sub-list{
+    display: flex;
+}
+.con2 .sub-list .box{
+    padding-top: 10px;
+    margin-right: 20px;
+}
+.con2 .sub-list .box p{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.con2 .sub-list .box img{
+    width: 257px;
+    height: 290px;
+}
+
+.footer{
+    margin-top: 30px;
+    background-color: #000;
+}
+.ft{
+    display: flex;
+    justify-content: center;
+    width: 1090px;
+    height: 180px;
+    margin: 0 auto;
+    background-color: #000;
+}
+.footer .f-box{
+    margin-right: 120px;
+}
+.footer .f-box:last-child{
+    margin-right: 0;
+}
+.footer .f-box h4{
+    margin-bottom: 10px;
+    color: #fff;
+}
+.footer .f-box .f-menu{}
+.footer .f-box .f-menu li{
+    font-size: 12px;
+    color: #fff;
+}
+.footer .f-box .f-menu li:hover{
+    border-bottom: 1px solid #fff;
+}
